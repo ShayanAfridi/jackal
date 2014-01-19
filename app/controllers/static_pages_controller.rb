@@ -31,4 +31,7 @@ class StaticPagesController < ApplicationController
 
   def links
   end
+
+  def policy
+  end
 end

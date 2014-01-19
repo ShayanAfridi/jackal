@@ -90,7 +90,13 @@ describe "StaticPages" do
  		end
  	end
 
+ 	describe "Privacy Policy page" do
 
+ 		it 'should have the correct title"' do
+ 			visit '/static_pages/policy'
+ 			expect(page).to have_title("Privacy Policy")
+ 		end
+ 	end
  	
 
 
