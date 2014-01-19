@@ -1,4 +1,15 @@
 Jackal::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/etymology"
+  get "static_pages/taxonomy"
+  get "static_pages/interbreeding"
+  get "static_pages/folklore"
+  get "static_pages/species"
+  get "static_pages/culture"
+  get "static_pages/also"
+  get "static_pages/footnotes"
+  get "static_pages/references"
+  get "static_pages/links"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
